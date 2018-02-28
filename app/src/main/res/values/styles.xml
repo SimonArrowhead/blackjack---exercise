@@ -13,4 +13,12 @@
     </style>
 
 
+    <style name="pointsButton" >
+        <item name="android:layout_width" ></item>
+        <item name="android:layout_height"></item>
+
+
+    </style>
+
+
 </resources>

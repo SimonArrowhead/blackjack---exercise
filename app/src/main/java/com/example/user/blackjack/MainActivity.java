@@ -17,114 +17,115 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void TwoPointsP1(View v) {
-        playerOneScore = playerOneScore + 2;
+        playerOneScore += 2;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void TwoPointsP2(View v) {
-        playerTwoScore = playerTwoScore + 2;
+        playerTwoScore += 2;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void ThreePointsP1(View v) {
-        playerOneScore = playerOneScore + 3;
+        playerOneScore += 3;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void ThreePointsP2(View v) {
-        playerTwoScore = playerTwoScore + 3;
+        playerTwoScore += 3;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void FourPointsP1(View v) {
-        playerOneScore = playerOneScore + 4;
+        playerOneScore += 4;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void FourPointsP2(View v) {
-        playerTwoScore = playerTwoScore + 4;
+        playerTwoScore += 4;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void FivePointsP1(View v) {
-        playerOneScore = playerOneScore + 5;
+        playerOneScore += 5;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void FivePointsP2(View v) {
-        playerTwoScore = playerTwoScore + 5;
+        playerTwoScore += 5;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void SixPointsP1(View v) {
-        playerOneScore = playerOneScore + 6;
+        playerOneScore += 6;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void SixPointsP2(View v) {
-        playerTwoScore = playerTwoScore + 6;
+        playerTwoScore += 6;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void SevenPointsP1(View v) {
-        playerOneScore = playerOneScore + 7;
+        playerOneScore += 7;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void SevenPointsP2(View v) {
-        playerTwoScore = playerTwoScore + 7;
+        playerTwoScore += 7;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void EightPointsP1(View v) {
-        playerOneScore = playerOneScore + 8;
+        playerOneScore += 8;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void EightPointsP2(View v) {
-        playerTwoScore = playerTwoScore + 8;
+        playerTwoScore += 8;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void NinePointsP1(View v) {
-        playerOneScore = playerOneScore + 9;
+        playerOneScore += 9;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void NinePointsP2(View v) {
-        playerTwoScore = playerTwoScore + 9;
+        playerTwoScore += 9;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void TenPointsP1(View v) {
-        playerOneScore = playerOneScore + 10;
+        playerOneScore += 10;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void TenPointsP2(View v) {
-        playerTwoScore = playerTwoScore + 10;
+        playerTwoScore += 10;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void OnePointP1(View v) {
-        playerOneScore = playerOneScore + 1;
+        playerOneScore += 1;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void OnePointP2(View v) {
-        playerTwoScore = playerTwoScore + 1;
+        playerTwoScore += 1;
         displayPlayerTwoScore(playerTwoScore);
     }
 
     public void ElevenPointsP1(View v) {
-        playerOneScore = playerOneScore + 11;
+        playerOneScore += 11;
         displayPlayerOneScore(playerOneScore);
     }
 
     public void ElevenPointsP2(View v) {
-        playerTwoScore = playerTwoScore + 11;
+        playerTwoScore += 11;
         displayPlayerTwoScore(playerTwoScore);
     }
+
 
     public void resetButton(View v) {
         playerOneScore = 0;

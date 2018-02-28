@@ -12,13 +12,37 @@
         <item name="android:textColor">#ffffff</item>
     </style>
 
-
-    <style name="pointsButton" >
-        <item name="android:layout_width" ></item>
-        <item name="android:layout_height"></item>
-
-
+    <style name="pointsButtonLeft" >
+        <item name="android:layout_width" >50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
     </style>
 
+    <style name="pointsButtonMiddle" >
+        <item name="android:layout_width" >50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="pointsButtonRight" >
+        <item name="android:layout_width" >50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="aceButton1" >
+        <item name="android:layout_width" >50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="aceButton11" >
+        <item name="android:layout_width" >50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
 
 </resources>

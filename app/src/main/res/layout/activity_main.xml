@@ -344,7 +344,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="20dp"
             android:onClick="resetButton"
-            android:text="@string/new_game" />
+            android:text="@string/reset" />
 
 
     </LinearLayout>

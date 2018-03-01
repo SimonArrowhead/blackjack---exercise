@@ -245,7 +245,7 @@ public class MainActivity extends AppCompatActivity {
     public void winLoseMsg (String msg) {
         TextView blackJackView = findViewById(R.id.gameResult);
         blackJackView.setText(String.valueOf(msg));
-        Toast toast = Toast.makeText(this, "You have to reset game", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this, "You have to reset the game", Toast.LENGTH_SHORT);
         toast.show();
     }
 }

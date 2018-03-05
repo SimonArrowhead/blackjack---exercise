@@ -242,6 +242,10 @@ public class MainActivity extends AppCompatActivity {
             blackJackView.setText(String.valueOf(win));
         }
     }
+
+//    TODO: finish this method
+    //only a test how T O D O works
+
     public void winLoseMsg (String msg) {
         TextView blackJackView = findViewById(R.id.gameResult);
         blackJackView.setText(String.valueOf(msg));

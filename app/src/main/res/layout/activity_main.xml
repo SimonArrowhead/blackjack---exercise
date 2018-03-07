@@ -51,84 +51,75 @@
                     android:layout_gravity="center_horizontal">
 
                     <Button
-                        android:id="@+id/Button2PlayerOne"
+                        android:id="@+id/button2PlayerOne"
                         style="@style/pointsButtonLeft"
-                        android:layout_toLeftOf="@id/Button3PlayerOne"
-                        android:layout_toStartOf="@id/Button3PlayerOne"
-                        android:onClick="TwoPointsP1"
+                        android:layout_toLeftOf="@id/button3PlayerOne"
+                        android:layout_toStartOf="@id/button3PlayerOne"
                         android:text="@string/two" />
 
                     <Button
-                        android:id="@+id/Button3PlayerOne"
+                        android:id="@+id/button3PlayerOne"
                         style="@style/pointsButtonMiddle"
-                        android:onClick="ThreePointsP1"
                         android:text="@string/three" />
 
                     <Button
-                        android:id="@+id/Button4PlayerOne"
+                        android:id="@+id/button4PlayerOne"
                         style="@style/pointsButtonRight"
-                        android:layout_toEndOf="@id/Button3PlayerOne"
-                        android:layout_toRightOf="@id/Button3PlayerOne"
-                        android:onClick="FourPointsP1"
+                        android:layout_toEndOf="@id/button3PlayerOne"
+                        android:layout_toRightOf="@id/button3PlayerOne"
                         android:text="@string/four" />
 
                     <Button
-                        android:id="@+id/Button5PlayerOne"
+                        android:id="@+id/button5PlayerOne"
                         style="@style/pointsButtonLeft"
-                        android:layout_below="@id/Button2PlayerOne"
-                        android:layout_toLeftOf="@id/Button6PlayerOne"
-                        android:layout_toStartOf="@id/Button6PlayerOne"
-                        android:onClick="FivePointsP1"
+                        android:layout_below="@id/button2PlayerOne"
+                        android:layout_toLeftOf="@id/button6PlayerOne"
+                        android:layout_toStartOf="@id/button6PlayerOne"
                         android:text="@string/five" />
 
                     <Button
-                        android:id="@+id/Button6PlayerOne"
+                        android:id="@+id/button6PlayerOne"
                         style="@style/pointsButtonMiddle"
-                        android:layout_below="@id/Button3PlayerOne"
-                        android:onClick="SixPointsP1"
+                        android:layout_below="@id/button3PlayerOne"
                         android:text="@string/six" />
 
                     <Button
-                        android:id="@+id/Button7PlayerOne"
+                        android:id="@+id/button7PlayerOne"
                         style="@style/pointsButtonRight"
-                        android:layout_below="@id/Button4PlayerOne"
-                        android:layout_toEndOf="@id/Button6PlayerOne"
-                        android:layout_toRightOf="@id/Button6PlayerOne"
-                        android:onClick="SevenPointsP1"
+                        android:layout_below="@id/button4PlayerOne"
+                        android:layout_toEndOf="@id/button6PlayerOne"
+                        android:layout_toRightOf="@id/button6PlayerOne"
                         android:text="@string/seven" />
 
                     <Button
-                        android:id="@+id/Button8PlayerOne"
+                        android:id="@+id/button8PlayerOne"
                         style="@style/pointsButtonLeft"
-                        android:layout_below="@id/Button5PlayerOne"
-                        android:layout_toLeftOf="@id/Button9PlayerOne"
-                        android:layout_toStartOf="@id/Button9PlayerOne"
-                        android:onClick="EightPointsP1"
+                        android:layout_below="@id/button5PlayerOne"
+                        android:layout_toLeftOf="@id/button9PlayerOne"
+                        android:layout_toStartOf="@id/button9PlayerOne"
                         android:text="@string/eight" />
 
                     <Button
-                        android:id="@+id/Button9PlayerOne"
+                        android:id="@+id/button9PlayerOne"
                         style="@style/pointsButtonMiddle"
-                        android:layout_below="@id/Button6PlayerOne"
-                        android:onClick="NinePointsP1"
+                        android:layout_below="@id/button6PlayerOne"
                         android:text="@string/nine" />
 
                     <Button
-                        android:id="@+id/Button10PlayerOne"
+                        android:id="@+id/button10PlayerOne"
                         style="@style/pointsButtonRight"
-                        android:layout_below="@id/Button7PlayerOne"
-                        android:layout_toEndOf="@id/Button9PlayerOne"
-                        android:layout_toRightOf="@id/Button9PlayerOne"
-                        android:onClick="TenPointsP1"
+                        android:layout_below="@id/button7PlayerOne"
+                        android:layout_toEndOf="@id/button9PlayerOne"
+                        android:layout_toRightOf="@id/button9PlayerOne"
                         android:text="@string/ten" />
 
                 </RelativeLayout>
 
                 <Button
+                    android:id="@+id/JQKP1"
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:onClick="TenPointsP1"
                     android:text="@string/jqk" />
 
                 <TextView
@@ -145,15 +136,14 @@
                     android:layout_height="wrap_content">
 
                     <Button
-                        android:id="@+id/PlayerOneAce1"
+                        android:id="@+id/playerOneAce1"
                         style="@style/aceButton1"
-                        android:layout_toLeftOf="@+id/PlayerOneOr"
-                        android:layout_toStartOf="@+id/PlayerOneOr"
-                        android:onClick="OnePointP1"
+                        android:layout_toLeftOf="@+id/playerOneOr"
+                        android:layout_toStartOf="@+id/playerOneOr"
                         android:text="@string/one" />
 
                     <TextView
-                        android:id="@+id/PlayerOneOr"
+                        android:id="@+id/playerOneOr"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
@@ -162,17 +152,15 @@
                         android:textSize="20sp" />
 
                     <Button
-                        android:id="@+id/PlayerOneAce11"
+                        android:id="@+id/playerOneAce11"
                         style="@style/aceButton11"
-                        android:layout_toEndOf="@+id/PlayerOneOr"
-                        android:layout_toRightOf="@+id/PlayerOneOr"
-                        android:onClick="ElevenPointsP1"
+                        android:layout_toEndOf="@+id/playerOneOr"
+                        android:layout_toRightOf="@+id/playerOneOr"
                         android:text="@string/eleven" />
 
                 </RelativeLayout>
-
-
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -202,84 +190,75 @@
                     android:layout_gravity="center_horizontal">
 
                     <Button
-                        android:id="@+id/Button2PlayerTwo"
+                        android:id="@+id/button2PlayerTwo"
                         style="@style/pointsButtonLeft"
-                        android:layout_toLeftOf="@id/Button3PlayerTwo"
-                        android:layout_toStartOf="@id/Button3PlayerTwo"
-                        android:onClick="TwoPointsP2"
+                        android:layout_toLeftOf="@id/button3PlayerTwo"
+                        android:layout_toStartOf="@id/button3PlayerTwo"
                         android:text="@string/two" />
 
                     <Button
-                        android:id="@+id/Button3PlayerTwo"
+                        android:id="@+id/button3PlayerTwo"
                         style="@style/pointsButtonMiddle"
-                        android:onClick="ThreePointsP2"
                         android:text="@string/three" />
 
                     <Button
-                        android:id="@+id/Button4PlayerTwo"
+                        android:id="@+id/button4PlayerTwo"
                         style="@style/pointsButtonRight"
-                        android:layout_toEndOf="@id/Button3PlayerTwo"
-                        android:layout_toRightOf="@id/Button3PlayerTwo"
-                        android:onClick="FourPointsP2"
+                        android:layout_toEndOf="@id/button3PlayerTwo"
+                        android:layout_toRightOf="@id/button3PlayerTwo"
                         android:text="@string/four" />
 
                     <Button
-                        android:id="@+id/Button5PlayerTwo"
+                        android:id="@+id/button5PlayerTwo"
                         style="@style/pointsButtonLeft"
-                        android:layout_below="@id/Button2PlayerTwo"
-                        android:layout_toLeftOf="@id/Button6PlayerTwo"
-                        android:layout_toStartOf="@id/Button6PlayerTwo"
-                        android:onClick="FivePointsP2"
+                        android:layout_below="@id/button2PlayerTwo"
+                        android:layout_toLeftOf="@id/button6PlayerTwo"
+                        android:layout_toStartOf="@id/button6PlayerTwo"
                         android:text="@string/five" />
 
                     <Button
-                        android:id="@+id/Button6PlayerTwo"
+                        android:id="@+id/button6PlayerTwo"
                         style="@style/pointsButtonMiddle"
-                        android:layout_below="@id/Button3PlayerTwo"
-                        android:onClick="SixPointsP2"
+                        android:layout_below="@id/button3PlayerTwo"
                         android:text="@string/six" />
 
                     <Button
-                        android:id="@+id/Button7PlayerTwo"
+                        android:id="@+id/button7PlayerTwo"
                         style="@style/pointsButtonRight"
-                        android:layout_below="@id/Button4PlayerTwo"
-                        android:layout_toEndOf="@id/Button6PlayerTwo"
-                        android:layout_toRightOf="@id/Button6PlayerTwo"
-                        android:onClick="SevenPointsP2"
+                        android:layout_below="@id/button4PlayerTwo"
+                        android:layout_toEndOf="@id/button6PlayerTwo"
+                        android:layout_toRightOf="@id/button6PlayerTwo"
                         android:text="@string/seven" />
 
                     <Button
-                        android:id="@+id/Button8PlayerTwo"
+                        android:id="@+id/button8PlayerTwo"
                         style="@style/pointsButtonLeft"
-                        android:layout_below="@id/Button5PlayerTwo"
-                        android:layout_toLeftOf="@id/Button9PlayerTwo"
-                        android:layout_toStartOf="@id/Button9PlayerTwo"
-                        android:onClick="EightPointsP2"
+                        android:layout_below="@id/button5PlayerTwo"
+                        android:layout_toLeftOf="@id/button9PlayerTwo"
+                        android:layout_toStartOf="@id/button9PlayerTwo"
                         android:text="@string/eight" />
 
                     <Button
-                        android:id="@+id/Button9PlayerTwo"
+                        android:id="@+id/button9PlayerTwo"
                         style="@style/pointsButtonMiddle"
-                        android:layout_below="@id/Button6PlayerTwo"
-                        android:onClick="NinePointsP2"
+                        android:layout_below="@id/button6PlayerTwo"
                         android:text="@string/nine" />
 
                     <Button
-                        android:id="@+id/Button10PlayerTwo"
+                        android:id="@+id/button10PlayerTwo"
                         style="@style/pointsButtonRight"
-                        android:layout_below="@id/Button7PlayerTwo"
-                        android:layout_toEndOf="@id/Button9PlayerTwo"
-                        android:layout_toRightOf="@id/Button9PlayerTwo"
-                        android:onClick="TenPointsP2"
+                        android:layout_below="@id/button7PlayerTwo"
+                        android:layout_toEndOf="@id/button9PlayerTwo"
+                        android:layout_toRightOf="@id/button9PlayerTwo"
                         android:text="@string/ten" />
 
                 </RelativeLayout>
 
                 <Button
+                    android:id="@+id/JQKP2"
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:onClick="TenPointsP2"
                     android:text="@string/jqk" />
 
                 <TextView
@@ -296,15 +275,14 @@
                     android:layout_height="wrap_content">
 
                     <Button
-                        android:id="@+id/PlayerTwoAce1"
+                        android:id="@+id/playerTwoAce1"
                         style="@style/aceButton1"
-                        android:layout_toLeftOf="@+id/PlayerTwoOr"
-                        android:layout_toStartOf="@+id/PlayerTwoOr"
-                        android:onClick="OnePointP2"
+                        android:layout_toLeftOf="@+id/playerTwoOr"
+                        android:layout_toStartOf="@+id/playerTwoOr"
                         android:text="@string/one" />
 
                     <TextView
-                        android:id="@+id/PlayerTwoOr"
+                        android:id="@+id/playerTwoOr"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
@@ -313,11 +291,10 @@
                         android:textSize="20sp" />
 
                     <Button
-                        android:id="@+id/PlayerTwoAce11"
+                        android:id="@+id/playerTwoAce11"
                         style="@style/aceButton11"
-                        android:layout_toEndOf="@+id/PlayerTwoOr"
-                        android:layout_toRightOf="@+id/PlayerTwoOr"
-                        android:onClick="ElevenPointsP2"
+                        android:layout_toEndOf="@+id/playerTwoOr"
+                        android:layout_toRightOf="@+id/playerTwoOr"
                         android:text="@string/eleven" />
 
                 </RelativeLayout>
